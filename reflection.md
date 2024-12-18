@@ -23,15 +23,20 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
-In this project, I developed a deeper understanding of integrating data analysis, user inputs, and visualization into a functional Streamlit app. One of the significant challenges I encountered was cleaning and preparing data for analysis, especially when scraping or handling datasets with inconsistent formatting. For example, I had to address non-numeric values and ensure columns were properly formatted before running calculations. This reinforced the importance of thorough data validation and error handling when working with real-world datasets.
+In this project, I developed a deeper understanding of integrating data analysis, user inputs, and visualization into a functional Streamlit app. One of the significant challenges I encountered was cleaning and preparing data for analysis, especially when scraping or handling datasets with inconsistent formatting. For example, I had to address non-numeric values and ensure columns were properly formatted before running calculations. This reinforced the importance of thorough data validation and error handling, especially working with scraped or downloaded datasets instead of what is provided in class.
 
-Another major challenge was debugging the calculate_retirement_savings function. Initially, the function produced incorrect results due to issues with how income, cost of living, and savings compounded over time. Correctly incorporating inflation adjustments and market returns required careful step-by-step testing to ensure accuracy. This process highlighted how small errors in logic can cascade into major discrepancies in outputs, especially in financial models.
+Another major challenge was debugging the calculate_retirement_savings function. Initially, the function produced incorrect results due to issues with how income, cost of living, and savings compounded over time. Correctly incorporating inflation adjustments and market returns required careful step-by-step testing to ensure accuracy. This process highlighted how small errors in logic can cascade into major discrepancies in outputs, especially in large projections.
 
 Additionally, setting up and running tests was a learning experience. I faced issues with module imports due to the project’s folder structure, which prevented the tests from running initially. Through research and adjustments, I learned how to structure a project properly for testing, including resolving relative import issues. Writing meaningful tests allowed me to verify critical functionality and gave me confidence that the app was working as intended.
 
 Key takeaways include:
 
 - The importance of data cleaning for reliable analysis.
-- Debugging and validating complex financial models step by step.
+- Debugging and validating complex projections step by step.
 - Structuring a project for effective unit testing and troubleshooting import errors.
-- Moving forward, I aim to improve the efficiency of my code, automate data collection, and write more comprehensive tests. This project emphasized the value of modular - programming and systematic problem-solving, especially when building scalable applications.
+
+////
+There are a few packages that are giving me the error
+ERROR: Could not find a version that satisfies the requirement os (from versions: none)
+ERROR: No matching distribution found for os
+packages include: os, warnings, and sklearn. I have no idea why this is happening, and the program is running fine currently.

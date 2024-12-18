@@ -5,10 +5,7 @@ pytest
 numpy
 openpyxl
 playwright
-os
 scipy
 statsmodels
-warnings
-sklearn
 matplotlib
 seaborn
