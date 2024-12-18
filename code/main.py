@@ -76,7 +76,7 @@ st.title("Retirement Savings Projection")
 # Calculate Retirement Savings
 result = calculate_retirement_savings(
     current_income=current_income,
-    age=22,  # Starting age
+    age=starting_age,  # Starting age
     yearly_cost_of_living=yearly_cost_of_living,
     average_geometric_return=average_geometric_return,
     income_growth_rates=income_growth_rates,
